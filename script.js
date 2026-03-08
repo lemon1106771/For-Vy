@@ -3,7 +3,7 @@ const yesBtn = document.getElementById('yes-btn');
 const mainWindow = document.getElementById('main-window');
 const successMessage = document.getElementById('success-message');
 
-// 1. Falling Stickers Logic
+// 1. Falling Stickers Logica
 const emojis = ['🐝', '🌸', '✨', '🍯', '🍭', '💖', '⭐'];
 
 function createEmoji() {
@@ -46,4 +46,5 @@ yesBtn.addEventListener('click', () => {
     
     // Celebration: spawn way more emojis!
     setInterval(createEmoji, 50);
+
 });
